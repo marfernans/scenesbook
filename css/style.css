@@ -1,0 +1,210 @@
+/* 
+##e43c10;
+ #66bbda;
+ #ffce1c;
+ #fffae5; 
+*/
+
+/*_____Inicio Variavles_____*/
+
+/* <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"> */
+
+:root {
+  /*_____Colores_____ */
+  --yellow-color: #e3e7ea;
+  --withe-color:#fffae5;
+  --black-color: #1c1e27;
+
+  /* _____Tipografía_____ */
+  --normal: 16px;
+
+  /*_____Space_____*/
+ --space:10px;
+
+ /*_____box-shadow_____*/
+ --box: 0 0 2px 1px #e6e5e9;
+
+}
+
+/*_____Cierre Variavles_____*/
+
+html,
+body {
+  /* color: var(--withe-color); */
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p,label {
+  font-size: var(--normal);
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: var(--space);
+  min-height: 60px;
+  background-color: var(--yellow-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--black-color);
+  font-size: var(--normal);
+}
+
+nav a:hover{
+  color: #f27405;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding-right: 15px;
+  list-style: none;
+}
+
+hr{
+  opacity: .2;
+}
+
+
+/*_____Main section_____*/
+
+.main_section {
+  text-align: center;
+  padding: 15%;
+}
+
+.products {
+  height: 95px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 15%;
+  display: flex;
+  
+}
+.product {
+  padding: 20px;
+  margin-top: -226px;
+}
+
+.image-product {
+  text-align: center;
+}
+.content{
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.main_btn{
+  padding: var(--space);
+  background-color: var(--yellow-color);
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--white-color);
+}
+.main_btn:hover{
+  background-color: #f27405;
+}
+
+/*_____Beneficios_____*/
+.beneficios{
+  padding: 10%;
+  display: flex;
+}
+
+.beneficio {
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio img {
+  max-height: 100px
+}
+
+.text_beneficio { 
+  text-align: center;
+}
+
+/*_____Mentions_____*/
+.mentions {
+  display: flex;
+  padding: 5%;
+}
+.mention img {
+  width: 100%;
+}
+h2 .mention_title {
+  text-align: center;
+}
+.mention {
+  padding: var(--space);
+}
+.content_mention {
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text {
+  padding: var(--space);
+
+}
+.mention_title {
+  text-align: center;
+}
+
+/*____________Venta__________ */
+
+.modulo__pago {
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+.modulo__pago-image {
+  text-align: center;
+  margin: auto;
+  padding: var(--space);
+
+
+}
+
+.data {
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+} 
+.modulo__pago .main_btn {
+  margin-top: 20px;
+}
+
+
+/*_____Footer_____*/
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: var(--yellow-color);
+  padding: var(--space);
+  color: var(--black-color);
+}
+
+
+
+
+
+
+
+
+
