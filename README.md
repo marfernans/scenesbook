@@ -37,26 +37,24 @@ Está solucionando nuevas experiencias vitales al usuario, desarrollando product
 
 #### Tecnologías y herramientas utilizadas para el desarrollo del proyecto
 
-- HTML 
-- CSS 
-- FLEXBOX 
+- HTML
+- CSS
+- FLEXBOX
 - CSS Animation
 - Paypla
 
 ### [Imagenes: unsplash](https://images.unsplash.com/photo-1517976547714-720226b864c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 
 
-## ✒️ Autor 
+## ✒️ Autor
 
-- ### Mario Enrique Fernandez Serrano
+- ### Mario Fernandez Serrano
 
 
-## 📄 Licencia 
+## 📄 Licencia
 
   - #### Este proyecto está bajo la Licencia (MIT License) - mira el archivo LICENSE.md para detalles
 
-## 🎁 Gratitud 
-- ### Coach - Ana Belisa 📢
-- ### Una cerveza 🍺 o un café ☕ a todo el equipo
-- ### Gracias públicamente a PlatziMaster, Ana Belisa 🤓.
+## 🎁 Gratitud
+- ### Una cerveza 🍺 o un café ☕
 - ### ⌨️ con ❤️ por Marius 😊
